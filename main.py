@@ -45,7 +45,7 @@ def load_recipe(json_string):
     return json.loads(json_string)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     # Example usage
     recipe_json = (
         '{"title": "Spaghetti Bolognese", "ingredients": {"Spaghetti": 400, '
